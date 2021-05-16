@@ -1,0 +1,298 @@
+[
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_check_mark.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\check_mark.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_check_mark.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\check_mark.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\anim_check_animation.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\anim\\check_animation.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_brand_editable.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\layout\\layout_brand_editable.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_check_mark.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\check_mark.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_options.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_options.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_check.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_check.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guarantee.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\drawable\\guarantee.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_check_mark.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\check_mark.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_main.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\layout\\item_main.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_check.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_check.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_check.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_check.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_options.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_options.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\layout\\activity_product.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_people.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\drawable\\people.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_normal.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\drawable\\button_normal.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_brand.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\layout\\item_brand.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_add.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_statistic.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\drawable\\statistic.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_options.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\menu\\menu_options.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_check_mark.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\check_mark.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_options.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_options.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_brand.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\drawable\\brand.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_add.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_add.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_product.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\menu\\menu_product.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_people.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\menu\\menu_people.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_check_mark.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\check_mark.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_brand.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\layout\\activity_brand.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_options.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_options.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sirius.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\drawable\\sirius.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_options.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_options.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_check_mark.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\check_mark.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_check.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_check.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_check.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_check.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_check.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_check.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_department.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\layout\\item_department.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_add.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_options.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_options.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_options.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_options.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login.jpg.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\drawable\\login.jpg"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_product.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\layout\\item_product.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wave_alpha.jpg.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\drawable\\wave_alpha.jpg"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bill.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\drawable\\bill.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_check.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_check.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_department.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\layout\\activity_department.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_verify.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\layout\\activity_verify.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_animated_check.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\drawable-v24\\animated_check.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_add.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add.png.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_add.png"
+    },
+    {
+        "merged": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_product.jpg.flat",
+        "source": "D:\\Code_Projects\\Android Studio\\MotorShop\\app\\src\\main\\res\\drawable\\product.jpg"
+    }
+]

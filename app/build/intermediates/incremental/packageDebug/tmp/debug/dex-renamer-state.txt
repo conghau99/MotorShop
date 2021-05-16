@@ -1,0 +1,4 @@
+#Sat May 15 02:07:54 ICT 2021
+base.0=D\:\\Code_Projects\\Android Studio\\MotorShop\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

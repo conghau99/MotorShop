@@ -1,0 +1,141 @@
+<resources>
+    <!--    <string name="app_name">MotorShop</string>-->
+    <!--    <string name="login">Login</string>-->
+    <!--    <string name="usn">Username</string>-->
+    <!--    <string name="pwd">Password</string>-->
+    <!--    <string name="login_guest"><u>Continue As Guest?</u></string>-->
+    <!--    <string name="otp">Please enter your OTP code</string>-->
+    <!--    <string name="submit">Submit</string>-->
+    <!--    <string name="products">Products</string>-->
+    <!--    <string name="motors">Motors</string>-->
+    <!--    <string name="accessories">Accessories</string>-->
+    <!--    <string name="people">People</string>-->
+    <!--    <string name="customers">Customers</string>-->
+    <!--    <string name="staffs">Staffs</string>-->
+    <!--    <string name="departments">Departments</string>-->
+    <!--    <string name="bills">Bills</string>-->
+    <!--    <string name="statistics">Statistics</string>-->
+    <!--    <string name="statistics_product">Product Statistics</string>-->
+    <!--    <string name="statistics_revenue">Revenue Statistics</string>-->
+    <!--    <string name="guarantees">Guarantees</string>-->
+    <!--    <string name="title_main">MOTORS MANAGEMENT APPLICATION</string>-->
+    <!--    <string name="user_info">User Information</string>-->
+    <!--    <string name="position">Position</string>-->
+    <!--    <string name="staffID">Staff ID</string>-->
+    <!--    <string name="name">Full Name</string>-->
+
+    <string name="app_name">MotorShop</string>
+
+    //fav-icon
+    <string name="icon_edit">&#xf044;</string>
+    <string name="icon_delete">&#xf1f8;</string>
+    <string name="icon_add">&#xf067;</string>
+    <string name="brand_icon">&#xf1ad;</string>
+    <string name="product_icon">&#xf21c;</string>
+    <string name="people_icon">&#xf0c0;</string>
+    <string name="bill_icon">&#xf571;</string>
+    <string name="statistic_icon">&#xf201;</string>
+    <string name="guarantee_icon">&#xf7d9;</string>
+
+
+    //Button
+    <string name="login">Đăng Nhập</string>
+    <string name="confirm">Xác Nhận</string>
+    <string name="insert">Thêm</string>
+    <string name="edit">Sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="update">Cập nhật</string>
+    <string name="load">Load</string>
+    <string name="clean">Xóa trắng</string>
+    <string name="cancel">Hủy</string>
+    <string name="func">Chức năng</string>
+
+    //Commons
+    <string name="title_main">ỨNG DỤNG QUẢN LÝ ĐẶT XE MÁY</string>
+    <string name="filter">Lọc</string>
+    <string name="arrange">Sắp Xếp</string>
+    <string name="address">Địa Chỉ</string>
+    <string name="phone">Số Điện Thoại</string>
+    <string name="email">Email</string>
+    <string name="logo">Logo</string>
+    <string name="image">Hình Ảnh</string>
+
+
+    //Login
+    <string name="usn">Tên đăng nhập</string>
+    <string name="pwd">Mật khẩu</string>
+    <string name="login_guest"><u>Dành Cho Khách Hàng</u></string>
+    <string name="otp">Xác Thực Bằng Mã OTP</string>
+
+
+    //Brand
+    <string name="brands">Hãng</string>
+    <string name="brand_manage">Quản Lý Hãng</string>
+    <string name="brand_list">Danh Sách Hãng</string>
+    <string name="choose_brand">Chọn Hãng</string>
+    <string name="brand_id">Mã Hãng</string>
+    <string name="brand_name">Tên Hãng</string>
+
+
+
+    //Product
+    <string name="products">Sản Phẩm</string>
+    <string name="product_manage">Quản Lý Sản Phẩm</string>
+    <string name="product_list">Danh Sách Sản Phẩm </string>
+    <string name="product_details">Chi Tiết Sản Phẩm</string>
+    <string name="price_up">Giá Tăng</string>
+    <string name="price_down">Giá Giảm</string>
+
+
+    //--Motor
+    <string name="motors">Xe máy</string>
+
+
+    //--Accessory
+    <string name="accessories">Phụ Tùng</string>
+
+
+    //People
+    <string name="people">Con Người</string>
+
+
+    //--Customer
+    <string name="customers">Khách Hàng</string>
+
+
+    //--Staff
+    <string name="staffs">Nhân Viên</string>
+    <string name="user_info">Thông Tin Nhân Viên</string>
+    <string name="position">Vị trí</string>
+    <string name="staffID">Mã Nhân Viên</string>
+    <string name="name">Họ tên</string>
+
+
+    //--Department
+    <string name="departments">Bộ Phận</string>
+    <string name="department_manage">Quản Lý Bộ Phận</string>
+    <string name="department_id">Mã Bộ Phận</string>
+    <string name="department_name">Tên Bộ Phận</string>
+
+
+    //Bill
+    <string name="bills">Hóa Đơn</string>
+
+
+    //Statistics
+    <string name="statistics">Thống Kê</string>
+
+
+    //--Product Statistic
+    <string name="statistics_product">Thống Kê Sản Phẩm</string>
+
+
+    //--Revenue Statistic
+    <string name="statistics_revenue">Thống Kê Doanh Thu</string>
+
+
+    //Guarantee
+    <string name="guarantees">Bảo Hành</string>
+
+
+</resources>

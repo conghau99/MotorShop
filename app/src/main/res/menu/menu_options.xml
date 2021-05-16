@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/brands"
+        android:icon="@drawable/ic_options"
+        android:title="@string/brands"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/products"
+        android:icon="@drawable/ic_options"
+        android:title="@string/products"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/motors"
+                android:title="@string/motors"/>
+            <item
+                android:id="@+id/accessories"
+                android:title="@string/accessories"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/people"
+        android:icon="@drawable/ic_options"
+        android:title="@string/people"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/customers"
+                android:title="@string/customers"/>
+            <item
+                android:id="@+id/staffs"
+                android:title="@string/staffs"/>
+            <item
+                android:id="@+id/departments"
+                android:title="@string/departments"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/bills"
+        android:icon="@drawable/ic_options"
+        android:title="@string/bills"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/statistics"
+        android:icon="@drawable/ic_options"
+        android:title="@string/statistics"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/statistics_product"
+                android:title="@string/statistics_product"/>
+            <item
+                android:id="@+id/statistics_revenue"
+                android:title="@string/statistics_revenue"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/guarantees"
+        android:icon="@drawable/ic_options"
+        android:title="@string/guarantees"
+        app:showAsAction="never"/>
+
+</menu>

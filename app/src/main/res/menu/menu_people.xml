@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/departments"
+        android:icon="@drawable/ic_options"
+        android:title="@string/departments"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/staffs"
+        android:icon="@drawable/ic_options"
+        android:title="@string/staffs"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/customers"
+        android:icon="@drawable/ic_options"
+        android:title="@string/customers"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvDPID"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="DP ID"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tvDPName"
+        android:layout_width="150dp"
+
+        android:layout_height="wrap_content"
+        android:text="DP Name"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tvEditDP"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/icon_edit"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvDeleteDP"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/icon_delete"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+</LinearLayout>

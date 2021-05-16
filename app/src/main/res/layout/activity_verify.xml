@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login.VerifyActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp"
+        android:textSize="20sp"
+        android:textColor="#085EA1"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"/>
+
+    <EditText
+        android:id="@+id/etOTP"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:textSize="30sp"
+        android:textColor="#5E5D5D"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imvDone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/animated_check"
+        tools:ignore="VectorDrawableCompat" />
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        android:textSize="20sp"
+        android:background="@drawable/button_normal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
