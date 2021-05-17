@@ -19,6 +19,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.motorshop.activity.R;
 import com.example.motorshop.activity.brand.BrandActivity;
 import com.example.motorshop.activity.product.ProductActivity;
+import com.example.motorshop.activity.product.QuanLyXeActivity;
 import com.example.motorshop.datasrc.MainItem;
 
 import java.util.ArrayList;
@@ -77,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                     Log.d(TAG, "onItemClick gridview: " + itemList.get(position).getName());
                 }
                 if(position == 1){
-                    Intent intent = new Intent(getApplicationContext(), ProductActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), QuanLyXeActivity.class);
                     startActivity(intent);
                     Log.d(TAG, "onItemClick gridview: " + itemList.get(position).getName());
                 }

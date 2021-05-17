@@ -10,6 +10,8 @@ import android.util.Log;
 import com.example.motorshop.datasrc.BoPhan;
 import com.example.motorshop.datasrc.NhaCungCap;
 import com.example.motorshop.datasrc.NhanVien;
+import com.example.motorshop.datasrc.PhuTung;
+import com.example.motorshop.datasrc.Xe;
 
 import java.util.ArrayList;
 
@@ -29,8 +31,8 @@ public class DBManager extends SQLiteOpenHelper {
         createTables.add("CREATE TABLE IF NOT EXISTS NHANVIEN(MANV text PRIMARY KEY, HOTEN text not null, SDT text not null, MABP text not null, CONSTRAINT FK_NHANVIEN_BOPHAN FOREIGN KEY (MABP) REFERENCES BOPHAN(MABP))");
         createTables.add("CREATE TABLE IF NOT EXISTS KHACHHANG (CMND text PRIMARY KEY, HOTEN text not null, DIACHI text not null, SDT text null)");
         createTables.add("CREATE TABLE IF NOT EXISTS NHACUNGCAP (MANCC text PRIMARY KEY, TENNCC text not null, DIACHI text not null, SDT text not null, EMAIL text null, LOGO int not null)");
-        createTables.add("CREATE TABLE IF NOT EXISTS XE (MAXE text PRIMARY KEY, TENXE text not null, SOLUONG int not null, DONGIA int not null, HANBAOHANH int not null, HINHANH int not null, MANCC text not null, CONSTRAINT FK_XE_NHACUNGCAP FOREIGN KEY (MANCC) REFERENCES NHACUNGCAP(MANCC))");
-        createTables.add("CREATE TABLE IF NOT EXISTS PHUTUNG (MAPT text PRIMARY KEY, TENPT text not null, SOLUONG int not null, DONGIA int not null, HANBAOHANH int not null, HINHANH int not null, MANCC text not null, CONSTRAINT FK_PHUTUNG_NHACUNGCAP FOREIGN KEY (MANCC) REFERENCES NHACUNGCAP(MANCC))");
+        createTables.add("CREATE TABLE IF NOT EXISTS XE (MAXE text PRIMARY KEY, TENXE text not null, SOLUONG int not null, DONGIA int not null, HANBAOHANH int not null, HINHANH BLOB not null, MANCC text not null, CONSTRAINT FK_XE_NHACUNGCAP FOREIGN KEY (MANCC) REFERENCES NHACUNGCAP(MANCC))");
+        createTables.add("CREATE TABLE IF NOT EXISTS PHUTUNG (MAPT text PRIMARY KEY, TENPT text not null, SOLUONG int not null, DONGIA int not null, HANBAOHANH int not null, HINHANH BLOB not null, MANCC text not null, CONSTRAINT FK_PHUTUNG_NHACUNGCAP FOREIGN KEY (MANCC) REFERENCES NHACUNGCAP(MANCC))");
         createTables.add("CREATE TABLE IF NOT EXISTS THONGSOXE (MATS int PRIMARY KEY, TENTS text not null)");
         createTables.add("CREATE TABLE IF NOT EXISTS CHITIETTHONGSOXE (MAXE text not null, MATS int not null, NOIDUNGTS text not null, CONSTRAINT FK_CHITIETTHONGSOXE_XE FOREIGN KEY (MAXE) REFERENCES XE(MAXE), CONSTRAINT FK_CHITIETTHONGSOXE_THONGSOXE FOREIGN KEY (MATS) REFERENCES THONGSOXE(MATS), PRIMARY KEY (MAXE, MATS))");
         createTables.add("CREATE TABLE IF NOT EXISTS THONGSOPHUTUNG (MAPT text not null, MAXE text not null, DONGIA int not null, CONSTRAINT FK_THONGSOPHUTUNG_PHUTUNG FOREIGN KEY (MAPT) REFERENCES PHUTUNG(MAPT), CONSTRAINT FK_THONGSOPHUTUNG_XE FOREIGN KEY (MAXE) REFERENCES XE(MAXE), PRIMARY KEY (MAPT, MAXE))");
@@ -212,18 +214,144 @@ public class DBManager extends SQLiteOpenHelper {
 
 
     //XE
-    public void insertXe() { }
-    public void updateXe() { }
-    public void loadXe() { }
-    public void deleteXe() { }
+    public void insertXe(Xe xe) {
+        SQLiteDatabase db = getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("MAXE", xe.getMaSP());
+        values.put("TENXE", xe.getTenSP());
+        values.put("SOLUONG", xe.getSoLuong());
+        values.put("DONGIA", xe.getDonGia());
+        values.put("HANBAOHANH", xe.getHanBH());
+        values.put("HINHANH", xe.getHinhAnh());
+        values.put("MANCC", xe.getTenNCC());
+        db.insert("XE", null, values);
+        db.close();
+        Log.d("DBManager", "4.1. InsertXe");
+    }
 
+    public void updateXe(Xe xe) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String sql = "Update  XE  set ";
+        sql += "TENXE  = '" + xe.getTenSP() + "' ,  ";
+        sql += "SOLUONG  = " + xe.getSoLuong() + " ,  ";
+        sql += "DONGIA  = " + xe.getDonGia() + " ,  ";
+        sql += "HANBAOHANH  = " + xe.getHanBH() + " ,  ";
+        sql += "HINHANH  = '" + xe.getHinhAnh() + "'  , ";
+        if (xe.getTenNCC().equals("HD"))
+            sql += "MANCC  = '" + "HD" + "' ";
+        if (xe.getTenNCC().equals("YM"))
+            sql += "MANCC  = '" + "YM" + "' ";
+        if (xe.getTenNCC().equals("SY"))
+            sql += "MANCC  = '" + "SY" +"' ";
+        sql += "  WHERE MAXE  = '" + xe.getMaSP() + "'";
+
+        ContentValues values = new ContentValues();
+        values.put("HINHANH", xe.getHinhAnh());
+
+        db.execSQL(sql);
+        db.update("XE", values,"MAXE = '" + xe.getMaSP() +"' ",null);
+        db.close();
+        Log.d("DBManager", "4.2. UpdateXe");
+    }
+
+    public void loadXe(ArrayList<Xe> data) {
+        data.clear();
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "select * from XE";
+        Cursor cursor = db.rawQuery(query, null);
+        if (cursor.moveToFirst()) {
+            do {
+                Xe xe = new Xe();
+                xe.setMaSP(cursor.getString(0));
+                xe.setTenSP(cursor.getString(1));
+                xe.setSoLuong(cursor.getInt(2));
+                xe.setDonGia(cursor.getInt(3));
+                xe.setHanBH(cursor.getInt(4));
+                xe.setHinhAnh(cursor.getBlob(5));
+                xe.setTenNCC(cursor.getString(6));
+                data.add(xe);
+            } while (cursor.moveToNext());
+        }
+        Log.d("DBManager", "4.3. LoadXe");
+    }
+
+    public void deleteXe(Xe xe) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "DELETE FROM XE WHERE MAXE='" + xe.getMaSP() + "'";
+        db.execSQL(query);
+        db.close();
+        Log.d("DBManager", "4.4. DeleteXe");
+    }
 
     //PHU TUNG
-    public void insertPT() { }
-    public void updatePT() { }
-    public void loadPT() { }
-    public void deletePT() { }
+    public void insertPT(PhuTung phuTung) {
+        SQLiteDatabase db = getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("MAPT", phuTung.getMaSP());
+        values.put("TENPT", phuTung.getTenSP());
+        values.put("SOLUONG", phuTung.getSoLuong());
+        values.put("DONGIA", phuTung.getDonGia());
+        values.put("HANBAOHANH", phuTung.getHanBH());
+        values.put("HINHANH", phuTung.getHinhAnh());
+        values.put("MANCC", phuTung.getTenNCC());
+        db.insert("PHUTUNG", null, values);
+        db.close();
+        Log.d("DBManager", "5.1. InsertPhuTung");
+    }
 
+    public void updatePT(PhuTung phuTung) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String sql = "Update  PHUTUNG  set ";
+        sql += "TENPT  = '" + phuTung.getTenSP() + "' ,  ";
+        sql += "SOLUONG  = " + phuTung.getSoLuong() + " ,  ";
+        sql += "DONGIA  = " + phuTung.getDonGia() + " ,  ";
+        sql += "HANBAOHANH  = " + phuTung.getHanBH() + " ,  ";
+        sql += "HINHANH  = '" + phuTung.getHinhAnh() + "' , ";
+        if (phuTung.getTenNCC().equals("HD"))
+            sql += "MANCC  = '" + "Honda" + "' ";
+        if (phuTung.getTenNCC().equals("YM"))
+            sql += "MANCC  = '" + "Yamaha" + "' ";
+        if (phuTung.getTenNCC().equals("SY"))
+            sql += "MANCC  = '" + "SYM" +"' ";
+        sql += "  WHERE MAPT  = '" + phuTung.getMaSP() + "'";
+
+        ContentValues values = new ContentValues();
+        values.put("HINHANH", phuTung.getHinhAnh());
+
+        db.execSQL(sql);
+        db.update("PHUTUNG", values,"MAPT = '" + phuTung.getMaSP() +"' ",null);
+        db.close();
+        Log.d("DBManager", "5.2. UpdatePhuTung");
+    }
+
+    public void loadPT(ArrayList<PhuTung> data) {
+        data.clear();
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "select * from PHUTUNG";
+        Cursor cursor = db.rawQuery(query, null);
+        if (cursor.moveToFirst()) {
+            do {
+                PhuTung phuTung = new PhuTung();
+                phuTung.setMaSP(cursor.getString(0));
+                phuTung.setTenSP(cursor.getString(1));
+                phuTung.setSoLuong(cursor.getInt(2));
+                phuTung.setDonGia(cursor.getInt(3));
+                phuTung.setHanBH(cursor.getInt(4));
+                phuTung.setHinhAnh(cursor.getBlob(5));
+                phuTung.setTenNCC(cursor.getString(6));
+                data.add(phuTung);
+            } while (cursor.moveToNext());
+        }
+        Log.d("DBManager", "5.3. LoadPhuTung");
+    }
+
+    public void deletePT(PhuTung phuTung) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "DELETE FROM PHUTUNG WHERE MAPT='" + phuTung.getMaSP() + "'";
+        db.execSQL(query);
+        db.close();
+        Log.d("DBManager", "5.4. DeletePhuTung");
+    }
 
     //THONG SO XE
     public void insertTSX() { }

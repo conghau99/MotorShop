@@ -137,5 +137,20 @@
     //Guarantee
     <string name="guarantees">Bảo Hành</string>
 
+    <array name="Hang">
+        <item>Honda</item>
+        <item>SYM</item>
+        <item>Yamaha</item>
+    </array>
+    <array name="HinhXe">
+        <item>Vision trắng</item>
+        <item>Vision đỏ</item>
+        <item>Vision tím</item>
+        <item>Wave</item>
+    </array>
+    <array name="HinhPhuTung">
+        <item>Cần khởi động</item>
+        <item>Xích</item>
+    </array>
 
 </resources>

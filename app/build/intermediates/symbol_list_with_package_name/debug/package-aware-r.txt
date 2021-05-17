@@ -51,6 +51,9 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array Hang
+array HinhPhuTung
+array HinhXe
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -392,6 +395,7 @@ attr fastScrollHorizontalTrackDrawable
 attr fastScrollVerticalThumbDrawable
 attr fastScrollVerticalTrackDrawable
 attr firstBaselineToTopHeight
+attr fit_mode
 attr floatingActionButtonStyle
 attr flow_firstHorizontalBias
 attr flow_firstHorizontalStyle
@@ -423,6 +427,7 @@ attr fontProviderQuery
 attr fontStyle
 attr fontVariationSettings
 attr fontWeight
+attr foreground
 attr foregroundInsidePadding
 attr framePosition
 attr gapBetweenBars
@@ -588,6 +593,8 @@ attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
 attr logo
 attr logoDescription
+attr matchHeightToWidth
+attr matchWidthToHeight
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -1149,11 +1156,16 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color teal_200
 color teal_700
+color tedbottompicker_camera
+color tedbottompicker_gallery
+color tedbottompicker_selected
 color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color xam
+color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1535,6 +1547,8 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen tedbottompicker_grid_layout_margin
+dimen tedbottompicker_selected_image_height
 dimen test_mtrl_calendar_day_cornerSize
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
@@ -1630,9 +1644,12 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add
 drawable animated_check
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
+drawable bg_edit
 drawable bill
 drawable brand
 drawable btn_checkbox_checked_mtrl
@@ -1644,6 +1661,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_normal
+drawable cankhoidong
 drawable check_mark
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1651,10 +1669,14 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable gallery_photo_selected
 drawable guarantee
 drawable ic_add
+drawable ic_camera
 drawable ic_check
+drawable ic_clear
 drawable ic_clock_black_24dp
+drawable ic_gallery
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1663,6 +1685,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_options
+drawable img_error
 drawable login
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -1703,7 +1726,14 @@ drawable statistic
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable vision1
+drawable vision2
+drawable vision3
 drawable wave_alpha
+drawable xe4
+drawable xe5
+drawable xe6
+drawable xich
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1798,12 +1828,14 @@ id bounce
 id brands
 id btnAddBR
 id btnCancelDP
+id btnChonAnh
 id btnInsertDP
 id btnInsertPD
 id btnLogin
 id btnSubmit
 id btnUpdateBR
 id btnUpdateDP
+id btn_done
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1871,6 +1903,13 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id edtDonGia
+id edtHanBaoHanh
+id edtMaPhuTung
+id edtMaXe
+id edtSoLuong
+id edtTenPhuTung
+id edtTenXe
 id elastic
 id end
 id endToStart
@@ -1901,6 +1940,7 @@ id floating
 id forever
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -1932,6 +1972,11 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id ivPhoto
+id ivPhuTung
+id ivXe
+id iv_close
+id iv_thumbnail
 id jumpToEnd
 id jumpToStart
 id labelGroup
@@ -1947,6 +1992,8 @@ id listMode
 id list_item
 id lvBrand
 id lvDepartment
+id lvHienThiPhuTung
+id lvHienThiXe
 id masked
 id material_clock_display
 id material_clock_face
@@ -2034,12 +2081,14 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id rc_gallery
 id rectangles
 id reverseSawtooth
 id right
 id rightToLeft
 id right_icon
 id right_side
+id root
 id rounded
 id row_index_key
 id save_non_transition_alpha
@@ -2052,6 +2101,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchTenXe
 id search_badge
 id search_bar
 id search_button
@@ -2064,6 +2114,10 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id selected_photo
+id selected_photos_container
+id selected_photos_container_frame
+id selected_photos_empty
 id selection_type
 id shortcut
 id showCustom
@@ -2080,6 +2134,8 @@ id snapMargins
 id spacer
 id spline
 id split_action_bar
+id spnHangPhuTung
+id spnHangXe
 id spread
 id spread_inside
 id square
@@ -2148,23 +2204,39 @@ id transition_transform
 id triangle
 id tvBRName
 id tvBrandEditTitle
+id tvChiTietXe
 id tvDPID
 id tvDPName
 id tvDeleteBR
 id tvDeleteDP
+id tvDonGia
 id tvEditBR
 id tvEditDP
 id tvGuest
+id tvHanBaoHanh
+id tvMaXe
 id tvMain
 id tvProductName
 id tvProductPrice
+id tvSoLuong
+id tvSuaThongTinPhuTung
+id tvSuaThongTinXe
+id tvTenHang
+id tvTenPhuTung
+id tvTenXe
+id tvThemPhuTung
+id tvThemXe
 id tvType
+id tvXoaPhuTung
+id tvXoaXe
+id tv_title
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
 id view_offset_helper
+id view_title_container
 id visible
 id withText
 id withinBounds
@@ -2236,6 +2308,12 @@ layout activity_department
 layout activity_login
 layout activity_main
 layout activity_product
+layout activity_quan_ly_phu_tung
+layout activity_quan_ly_xe
+layout activity_sua_phu_tung
+layout activity_sua_xe
+layout activity_them_phu_tung
+layout activity_them_xe
 layout activity_verify
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2253,10 +2331,16 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dg_nua_chon_phu_tung
+layout dg_nua_chon_them
+layout dg_nua_chon_xe
 layout item_brand
 layout item_department
 layout item_main
+layout item_phu_tung
 layout item_product
+layout item_spinner
+layout item_xe
 layout layout_brand_editable
 layout material_chip_input_combo
 layout material_clock_display
@@ -2310,6 +2394,9 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout tedbottompicker_content_view
+layout tedbottompicker_grid_item
+layout tedbottompicker_selected_item
 layout test_action_chip
 layout test_chip_zero_corner_radius
 layout test_design_checkbox
@@ -2387,6 +2474,7 @@ string department_id
 string department_manage
 string department_name
 string departments
+string done
 string edit
 string email
 string error_icon_content_description
@@ -2461,6 +2549,7 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string name
+string no_image
 string otp
 string password_toggle_content_description
 string path_password_eye
@@ -2480,6 +2569,8 @@ string product_manage
 string products
 string pwd
 string search_menu_title
+string select_max_count
+string select_min_count
 string staffID
 string staffs
 string statistic_icon
@@ -2487,6 +2578,10 @@ string statistics
 string statistics_product
 string statistics_revenue
 string status_bar_notification_info_overflow
+string tedbottompicker_title
+string tedpermission_close
+string tedpermission_confirm
+string tedpermission_setting
 string title_main
 string update
 string user_info
@@ -2499,6 +2594,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
+style AppSearchView
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -2956,6 +3052,7 @@ style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
 style Theme_MotorShop
+style Theme_Transparent_Permission
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark
@@ -3326,6 +3423,8 @@ styleable SwitchCompat android_textOn android_textOff android_thumb showText spl
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text
 styleable TabLayout tabBackground tabContentStart tabGravity tabIconTint tabIconTintMode tabIndicator tabIndicatorAnimationDuration tabIndicatorAnimationMode tabIndicatorColor tabIndicatorFullWidth tabIndicatorGravity tabIndicatorHeight tabInlineLabel tabMaxWidth tabMinWidth tabMode tabPadding tabPaddingBottom tabPaddingEnd tabPaddingStart tabPaddingTop tabRippleColor tabSelectedTextColor tabTextAppearance tabTextColor tabUnboundedRipple
+styleable TedBottomPickerImageView fit_mode foreground
+styleable TedBottomPickerSquareView matchHeightToWidth matchWidthToHeight
 styleable TextAppearance android_textSize android_typeface android_textStyle android_textColor android_textColorHint android_textColorLink android_shadowColor android_shadowDx android_shadowDy android_shadowRadius android_fontFamily android_textFontWeight fontFamily fontVariationSettings textAllCaps textLocale
 styleable TextInputEditText textInputLayoutFocusedRectEnabled
 styleable TextInputLayout android_enabled android_textColorHint android_hint boxBackgroundColor boxBackgroundMode boxCollapsedPaddingTop boxCornerRadiusBottomEnd boxCornerRadiusBottomStart boxCornerRadiusTopEnd boxCornerRadiusTopStart boxStrokeColor boxStrokeErrorColor boxStrokeWidth boxStrokeWidthFocused counterEnabled counterMaxLength counterOverflowTextAppearance counterOverflowTextColor counterTextAppearance counterTextColor endIconCheckable endIconContentDescription endIconDrawable endIconMode endIconTint endIconTintMode errorContentDescription errorEnabled errorIconDrawable errorIconTint errorIconTintMode errorTextAppearance errorTextColor expandedHintEnabled helperText helperTextEnabled helperTextTextAppearance helperTextTextColor hintAnimationEnabled hintEnabled hintTextAppearance hintTextColor passwordToggleContentDescription passwordToggleDrawable passwordToggleEnabled passwordToggleTint passwordToggleTintMode placeholderText placeholderTextAppearance placeholderTextColor prefixText prefixTextAppearance prefixTextColor shapeAppearance shapeAppearanceOverlay startIconCheckable startIconContentDescription startIconDrawable startIconTint startIconTintMode suffixText suffixTextAppearance suffixTextColor
@@ -3339,6 +3438,7 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml provider_paths
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

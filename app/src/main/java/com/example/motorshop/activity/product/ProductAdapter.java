@@ -43,7 +43,6 @@ public class ProductAdapter extends ArrayAdapter<SanPham> {
         TextView tvProductPrice = convertView.findViewById(R.id.tvProductPrice);
 
         SanPham product = this.data.get(position);
-        imvProduct.setImageResource(product.getHinhAnh());
         tvProductName.setText(product.getTenSP());
         tvProductPrice.setText(product.getDonGia());
 

@@ -1,6 +1,6 @@
 package com.example.motorshop.datasrc;
 
-import java.util.ArrayList;
+import android.graphics.Bitmap;
 
 public class SanPham {
     private String maSP;
@@ -8,12 +8,12 @@ public class SanPham {
     private int soLuong;
     private int donGia;
     private int hanBH;
-    private int hinhAnh;
+    private byte[] hinhAnh;
     private String tenNCC;
 
     public SanPham() { }
 
-    public SanPham(String maSP, String tenSP, int soLuong, int donGia, int hanBH, int hinhAnh, String tenNCC) {
+    public SanPham(String maSP, String tenSP, int soLuong, int donGia, int hanBH, byte[] hinhAnh, String tenNCC) {
         this.maSP = maSP;
         this.tenSP = tenSP;
         this.soLuong = soLuong;
@@ -63,11 +63,11 @@ public class SanPham {
         this.hanBH = hanBH;
     }
 
-    public int getHinhAnh() {
+    public byte[] getHinhAnh() {
         return hinhAnh;
     }
 
-    public void setHinhAnh(int hinhAnh) {
+    public void setHinhAnh(byte[] hinhAnh) {
         this.hinhAnh = hinhAnh;
     }
 

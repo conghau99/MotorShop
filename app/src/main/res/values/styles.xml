@@ -12,4 +12,9 @@
 <!--        <item name="colorPrimary">@android:color/transparent</item>-->
 <!--    </style>-->
 
+    // chỉnh size của Search View
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:textSize">20sp</item>
+    </style>
+
 </resources>

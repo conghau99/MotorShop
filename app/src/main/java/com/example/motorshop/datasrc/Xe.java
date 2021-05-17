@@ -1,5 +1,7 @@
 package com.example.motorshop.datasrc;
 
+import android.graphics.Bitmap;
+
 import java.util.ArrayList;
 
 public class Xe extends SanPham {
@@ -7,7 +9,7 @@ public class Xe extends SanPham {
 
     public Xe() { }
 
-    public Xe(String maSP, String tenSP, int soLuong, int donGia, int hanBH, int hinhAnh, String maNCC, ArrayList<ThongSoXe> danhSachTSX) {
+    public Xe(String maSP, String tenSP, int soLuong, int donGia, int hanBH, byte[] hinhAnh, String maNCC, ArrayList<ThongSoXe> danhSachTSX) {
         super(maSP, tenSP, soLuong, donGia, hanBH, hinhAnh, maNCC);
         this.danhSachTSX = danhSachTSX;
     }
