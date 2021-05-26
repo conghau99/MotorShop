@@ -2101,6 +2101,8 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchHang
+id searchTenPT
 id searchTenXe
 id search_badge
 id search_bar

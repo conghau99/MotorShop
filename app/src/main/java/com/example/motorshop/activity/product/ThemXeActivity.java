@@ -70,7 +70,6 @@ public class ThemXeActivity extends AppCompatActivity {
             @Override
             public void onPermissionGranted() {
                 openImagePicker();
-                Toast.makeText(ThemXeActivity.this, "Permission Granted", Toast.LENGTH_SHORT).show();
             }
 
             @Override

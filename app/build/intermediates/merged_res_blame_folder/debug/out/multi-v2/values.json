@@ -23,25 +23,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\cchvi\\.gradle\\caches\\transforms-2\\files-2.1\\cad492d89379c1e977175854df346c99\\jetified-tedpermission-2.2.3\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "3,4,5,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "106,160,218,276",
-                        "endLines": "3,4,5,19",
-                        "endColumns": "53,57,57,10",
-                        "endOffsets": "155,213,271,875"
-                    },
-                    "to": {
-                        "startLines": "1200,1201,1202,3860",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "76248,76302,76360,254153",
-                        "endLines": "1200,1201,1202,3873",
-                        "endColumns": "53,57,57,10",
-                        "endOffsets": "76297,76355,76413,254752"
-                    }
-                },
-                {
                     "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "15",
@@ -58,6 +39,23 @@
                         "endLines": "1225",
                         "endColumns": "12",
                         "endOffsets": "77899"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\cchvi\\.gradle\\caches\\transforms-2\\files-2.1\\b17967c54653e8fa7edd7d667d910a71\\jetified-glide-4.9.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    },
+                    "to": {
+                        "startLines": "964",
+                        "startColumns": "4",
+                        "startOffsets": "55950",
+                        "endColumns": "57",
+                        "endOffsets": "56003"
                     }
                 },
                 {
@@ -194,25 +192,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\cchvi\\.gradle\\caches\\transforms-2\\files-2.1\\2287989fa0d272cf23b1e56b7e1e4369\\jetified-tedbottompicker-2.0.1\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,109,164,223,288,357,395,441,515,591,654,836",
-                        "endLines": "2,3,4,5,6,7,8,9,10,11,15,19",
-                        "endColumns": "53,54,58,64,68,37,45,73,75,62,24,24",
-                        "endOffsets": "104,159,218,283,352,390,436,510,586,649,831,1031"
-                    },
-                    "to": {
-                        "startLines": "521,522,523,910,911,1095,1170,1190,1191,1199,7701,7705",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "26846,26900,26955,52606,52671,63847,74106,75646,75720,76185,492516,492698",
-                        "endLines": "521,522,523,910,911,1095,1170,1190,1191,1199,7704,7708",
-                        "endColumns": "53,54,58,64,68,37,45,73,75,62,24,24",
-                        "endOffsets": "26895,26950,27009,52666,52735,63880,74147,75715,75791,76243,492693,492893"
-                    }
-                },
-                {
                     "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "139,150,144,94,56,26,55,35,121,32,75,73,72,76,71,49,74,48,42,102,45,116,115,117,114,44,58,54,50,37,137,31,30,29,60,43,47,41,66,59,90,110,67,98,34,57,108,86,85,84,33,83,82,81,65,109,106,36,125,129,133,53,46,107,64",
@@ -285,20 +264,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\cchvi\\.gradle\\caches\\transforms-2\\files-2.1\\28d474a297d10a49580084c6eb390b2f\\jetified-glide-4.9.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\cchvi\\.gradle\\caches\\transforms-2\\files-2.1\\5eadee05b98c6ebeccf6e776a1dcdb18\\jetified-tedbottompicker-2.0.1\\res\\values\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "57",
-                        "endOffsets": "108"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,164,223,288,357,395,441,515,591,654,836",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,15,19",
+                        "endColumns": "53,54,58,64,68,37,45,73,75,62,24,24",
+                        "endOffsets": "104,159,218,283,352,390,436,510,586,649,831,1031"
                     },
                     "to": {
-                        "startLines": "964",
-                        "startColumns": "4",
-                        "startOffsets": "55950",
-                        "endColumns": "57",
-                        "endOffsets": "56003"
+                        "startLines": "521,522,523,910,911,1095,1170,1190,1191,1199,7701,7705",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "26846,26900,26955,52606,52671,63847,74106,75646,75720,76185,492516,492698",
+                        "endLines": "521,522,523,910,911,1095,1170,1190,1191,1199,7704,7708",
+                        "endColumns": "53,54,58,64,68,37,45,73,75,62,24,24",
+                        "endOffsets": "26895,26950,27009,52666,52735,63880,74147,75715,75791,76243,492693,492893"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\cchvi\\.gradle\\caches\\transforms-2\\files-2.1\\b32f066dbad7fa5bebc95f3b1b5976ef\\jetified-tedpermission-2.2.3\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "3,4,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "106,160,218,276",
+                        "endLines": "3,4,5,19",
+                        "endColumns": "53,57,57,10",
+                        "endOffsets": "155,213,271,875"
+                    },
+                    "to": {
+                        "startLines": "1200,1201,1202,3860",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "76248,76302,76360,254153",
+                        "endLines": "1200,1201,1202,3873",
+                        "endColumns": "53,57,57,10",
+                        "endOffsets": "76297,76355,76413,254752"
                     }
                 },
                 {

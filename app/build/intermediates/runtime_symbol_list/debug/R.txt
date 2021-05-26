@@ -2100,6 +2100,8 @@ int id scrollIndicatorDown 0x7f090163
 int id scrollIndicatorUp 0x7f090164
 int id scrollView 0x7f090165
 int id scrollable 0x7f090166
+int id searchHang 0x7f090203
+int id searchTenPT 0x7f090204
 int id searchTenXe 0x7f090167
 int id search_badge 0x7f090168
 int id search_bar 0x7f090169

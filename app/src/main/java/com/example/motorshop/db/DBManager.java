@@ -14,6 +14,7 @@ import com.example.motorshop.datasrc.PhuTung;
 import com.example.motorshop.datasrc.Xe;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class DBManager extends SQLiteOpenHelper {
 
@@ -283,6 +284,59 @@ public class DBManager extends SQLiteOpenHelper {
         Log.d("DBManager", "4.4. DeleteXe");
     }
 
+    public ArrayList<Xe> searchXe(String keyword) {
+        ArrayList<Xe> xes = null;
+        try{
+            SQLiteDatabase sqLiteDatabase = getReadableDatabase();
+            String query = "select * from XE where TENXE like ?";
+            Cursor cursor = sqLiteDatabase.rawQuery(query, new String[] { "%" + keyword + "%" });
+            if (cursor.moveToFirst()){
+                xes = new ArrayList<Xe>();
+                do {
+                    Xe xe = new Xe();
+                    xe.setMaSP(cursor.getString(0));
+                    xe.setTenSP(cursor.getString(1));
+                    xe.setSoLuong(cursor.getInt(2));
+                    xe.setDonGia(cursor.getInt(3));
+                    xe.setHanBH(cursor.getInt(4));
+                    xe.setHinhAnh(cursor.getBlob(5));
+                    xe.setTenNCC(cursor.getString(6));
+                    xes.add(xe);
+                }while (cursor.moveToNext());
+            }
+        }catch (Exception e){
+            xes = null;
+        }
+        return xes;
+    }
+
+    public ArrayList<Xe> searchNCC(String keyword) {
+        ArrayList<Xe> xes = null;
+        try{
+            SQLiteDatabase sqLiteDatabase = getReadableDatabase();
+            String query = "select * from XE where MANCC like ?";
+            Cursor cursor = sqLiteDatabase.rawQuery(query, new String[] { "%" + keyword + "%" });
+            if (cursor.moveToFirst()){
+                xes = new ArrayList<Xe>();
+                do {
+                    Xe xe = new Xe();
+                    xe.setMaSP(cursor.getString(0));
+                    xe.setTenSP(cursor.getString(1));
+                    xe.setSoLuong(cursor.getInt(2));
+                    xe.setDonGia(cursor.getInt(3));
+                    xe.setHanBH(cursor.getInt(4));
+                    xe.setHinhAnh(cursor.getBlob(5));
+                    xe.setTenNCC(cursor.getString(6));
+                    xes.add(xe);
+                }while (cursor.moveToNext());
+            }
+        }catch (Exception e){
+            xes = null;
+        }
+        return xes;
+    }
+
+
     //PHU TUNG
     public void insertPT(PhuTung phuTung) {
         SQLiteDatabase db = getWritableDatabase();
@@ -351,6 +405,58 @@ public class DBManager extends SQLiteOpenHelper {
         db.execSQL(query);
         db.close();
         Log.d("DBManager", "5.4. DeletePhuTung");
+    }
+
+    public ArrayList<PhuTung> searchPT(String keyword) {
+        ArrayList<PhuTung> phuTungs = null;
+        try{
+            SQLiteDatabase sqLiteDatabase = getReadableDatabase();
+            String query = "select * from PHUTUNG where TENPT like ?";
+            Cursor cursor = sqLiteDatabase.rawQuery(query, new String[] { "%" + keyword + "%" });
+            if (cursor.moveToFirst()){
+                phuTungs = new ArrayList<PhuTung>();
+                do {
+                    PhuTung phuTung = new PhuTung();
+                    phuTung.setMaSP(cursor.getString(0));
+                    phuTung.setTenSP(cursor.getString(1));
+                    phuTung.setSoLuong(cursor.getInt(2));
+                    phuTung.setDonGia(cursor.getInt(3));
+                    phuTung.setHanBH(cursor.getInt(4));
+                    phuTung.setHinhAnh(cursor.getBlob(5));
+                    phuTung.setTenNCC(cursor.getString(6));
+                    phuTungs.add(phuTung);
+                }while (cursor.moveToNext());
+            }
+        }catch (Exception e){
+            phuTungs = null;
+        }
+        return phuTungs;
+    }
+
+    public ArrayList<PhuTung> searchNCC_PT(String keyword) {
+        ArrayList<PhuTung> phuTungs = null;
+        try{
+            SQLiteDatabase sqLiteDatabase = getReadableDatabase();
+            String query = "select * from PHUTUNG where MANCC like ?";
+            Cursor cursor = sqLiteDatabase.rawQuery(query, new String[] { "%" + keyword + "%" });
+            if (cursor.moveToFirst()){
+                phuTungs = new ArrayList<PhuTung>();
+                do {
+                    PhuTung phuTung = new PhuTung();
+                    phuTung.setMaSP(cursor.getString(0));
+                    phuTung.setTenSP(cursor.getString(1));
+                    phuTung.setSoLuong(cursor.getInt(2));
+                    phuTung.setDonGia(cursor.getInt(3));
+                    phuTung.setHanBH(cursor.getInt(4));
+                    phuTung.setHinhAnh(cursor.getBlob(5));
+                    phuTung.setTenNCC(cursor.getString(6));
+                    phuTungs.add(phuTung);
+                }while (cursor.moveToNext());
+            }
+        }catch (Exception e){
+            phuTungs = null;
+        }
+        return phuTungs;
     }
 
     //THONG SO XE
