@@ -64,7 +64,7 @@ public class SuaPhuTungActivity extends AppCompatActivity {
     }
 
     private void setEvent() {
-        ArrayAdapter adapterHang = ArrayAdapter.createFromResource(this, R.array.Hang, R.layout.item_spinner);
+        ArrayAdapter adapterHang = ArrayAdapter.createFromResource(this, R.array.HangPT, R.layout.item_spinner);
         spnHangPhuTung.setAdapter(adapterHang);
 
         ChonPhuTung(phuTung);
@@ -120,12 +120,10 @@ public class SuaPhuTungActivity extends AppCompatActivity {
         item.setSoLuong(Integer.parseInt(edtSoLuong.getText().toString()));
         item.setDonGia(Integer.parseInt(edtDonGia.getText().toString()));
         item.setHanBH(Integer.parseInt(edtHanBaoHanh.getText().toString()));
-        if (spnHangPhuTung.getSelectedItem().toString().equals("Honda"))
-            item.setTenNCC("HD");
-        if (spnHangPhuTung.getSelectedItem().toString().equals("Yamaha"))
-            item.setTenNCC("YM");
-        if (spnHangPhuTung.getSelectedItem().toString().equals("SYM"))
-            item.setTenNCC("SY");
+        if (spnHangPhuTung.getSelectedItem().toString().equals("Ohlins"))
+            item.setTenNCC("OH");
+        if (spnHangPhuTung.getSelectedItem().toString().equals("Akrapovic"))
+            item.setTenNCC("AK");
 
         //chuyển data imageview -> byte[]
         BitmapDrawable bitmapDrawable = (BitmapDrawable) ivPhoTo.getDrawable();

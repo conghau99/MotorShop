@@ -2,6 +2,8 @@ package com.example.motorshop.activity.product;
 
 import android.app.SearchManager;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -22,6 +24,7 @@ import com.example.motorshop.datasrc.PhuTung;
 import com.example.motorshop.datasrc.Xe;
 import com.example.motorshop.db.DBManager;
 
+import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 
 public class QuanLyPhuTungActivity extends AppCompatActivity {

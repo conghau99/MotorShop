@@ -4,7 +4,7 @@ public class NhanVien {
     private String maNV;
     private String hoTen;
     private String sdt;
-    private String tenBP;
+    private String maBP;
 
     public NhanVien() { }
 
@@ -12,7 +12,7 @@ public class NhanVien {
         this.maNV = maNV;
         this.hoTen = hoTen;
         this.sdt = sdt;
-        this.tenBP = maBP;
+        this.maBP = maBP;
     }
 
     public String getMaNV() {
@@ -39,11 +39,11 @@ public class NhanVien {
         this.sdt = sdt;
     }
 
-    public String getTenBP() {
-        return tenBP;
+    public String getMaBP() {
+        return maBP;
     }
 
-    public void setTenBP(String tenBP) {
-        this.tenBP = tenBP;
+    public void setMaBP(String maBP) {
+        this.maBP = maBP;
     }
 }

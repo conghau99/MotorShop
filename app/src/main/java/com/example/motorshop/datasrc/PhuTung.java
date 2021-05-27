@@ -16,6 +16,11 @@ public class PhuTung extends SanPham{
         this.danhSachTSPT = danhSachTSPT;
     }
 
+    public PhuTung(String maSP, String tenSP, int soLuong, int donGia, int hanBH, byte[] hinhAnh, String maNCC) {
+        super(maSP, tenSP, soLuong, donGia, hanBH, hinhAnh, maNCC);
+        this.danhSachTSPT = danhSachTSPT;
+    }
+
     public ArrayList<ThongSoPhuTung> getDanhSachTSPT() {
         return danhSachTSPT;
     }

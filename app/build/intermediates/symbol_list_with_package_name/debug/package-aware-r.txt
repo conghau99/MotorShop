@@ -52,6 +52,7 @@ animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
 array Hang
+array HangPT
 array HinhPhuTung
 array HinhXe
 attr actionBarDivider
@@ -1645,6 +1646,9 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable add
+drawable ak_gp_titan_r3
+drawable ak_sticker1
+drawable akrapovic
 drawable animated_check
 drawable avd_hide_password
 drawable avd_show_password
@@ -1671,6 +1675,10 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable gallery_photo_selected
 drawable guarantee
+drawable hd_vision
+drawable hd_wavea
+drawable hd_winx
+drawable honda
 drawable ic_add
 drawable ic_camera
 drawable ic_check
@@ -1719,10 +1727,14 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable oh_phuoc_vario
+drawable oh_sticker1
+drawable ohlins
 drawable people
 drawable product
 drawable sirius
 drawable statistic
+drawable sym
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1734,6 +1746,10 @@ drawable xe4
 drawable xe5
 drawable xe6
 drawable xich
+drawable yamaha
+drawable ym_exciter
+drawable ym_grande
+drawable ym_sirius
 id ALT
 id BOTTOM_END
 id BOTTOM_START

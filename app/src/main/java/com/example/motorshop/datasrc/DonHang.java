@@ -4,15 +4,15 @@ public class DonHang {
     private String maDH;
     private String ngayDat;
     private String cmnd;
-    private String tenNV;
+    private String maNV;
 
     public DonHang() { }
 
-    public DonHang(String maDH, String ngayDat, String cmnd, String tenNV) {
+    public DonHang(String maDH, String ngayDat, String cmnd, String maNV) {
         this.maDH = maDH;
         this.ngayDat = ngayDat;
         this.cmnd = cmnd;
-        this.tenNV = tenNV;
+        this.maNV = maNV;
     }
 
     public String getMaDH() {
@@ -39,11 +39,11 @@ public class DonHang {
         this.cmnd = cmnd;
     }
 
-    public String getTenNV() {
-        return tenNV;
+    public String getMaNV() {
+        return maNV;
     }
 
-    public void setTenNV(String tenNV) {
-        this.tenNV = tenNV;
+    public void setMaNV(String maNV) {
+        this.maNV = maNV;
     }
 }

@@ -28,12 +28,16 @@
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\add.png"
     },
     {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_xe5.png.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\xe5.png"
+    },
+    {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_xe5.png.flat",
-        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\xe5.png"
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_oh_phuoc_vario.jpg.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\oh_phuoc_vario.jpg"
     },
     {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_normal.xml.flat",
@@ -56,12 +60,20 @@
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\ic_add.xml"
     },
     {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ym_exciter.png.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\ym_exciter.png"
+    },
+    {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_brand_editable.xml.flat",
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\layout\\layout_brand_editable.xml"
     },
     {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bill.png.flat",
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\bill.png"
+    },
+    {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ak_gp_titan_r3.png.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\ak_gp_titan_r3.png"
     },
     {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guarantee.png.flat",
@@ -100,8 +112,16 @@
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\statistic.png"
     },
     {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_akrapovic.png.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\akrapovic.png"
+    },
+    {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_honda.png.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\honda.png"
     },
     {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_check_mark.xml.flat",
@@ -126,6 +146,10 @@
     {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sym.jpg.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\sym.jpg"
     },
     {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -156,8 +180,16 @@
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hd_winx.png.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\hd_winx.png"
+    },
+    {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sirius.png.flat",
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\sirius.png"
+    },
+    {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hd_vision.png.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\hd_vision.png"
     },
     {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_department.xml.flat",
@@ -188,6 +220,10 @@
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ak_sticker1.jpg.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\ak_sticker1.jpg"
+    },
+    {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_xe.xml.flat",
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\layout\\item_xe.xml"
     },
@@ -208,6 +244,10 @@
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\layout\\activity_sua_phu_tung.xml"
     },
     {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ym_sirius.png.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\ym_sirius.png"
+    },
+    {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -218,6 +258,10 @@
     {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\layout_dg_nua_chon_them.xml.flat",
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\layout\\dg_nua_chon_them.xml"
+    },
+    {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ohlins.png.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\ohlins.png"
     },
     {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_phu_tung.xml.flat",
@@ -248,8 +292,20 @@
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\ic_check.xml"
     },
     {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_oh_sticker1.png.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\oh_sticker1.png"
+    },
+    {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ym_grande.png.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\ym_grande.png"
+    },
+    {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_people.png.flat",
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\people.png"
+    },
+    {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hd_wavea.jpg.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\hd_wavea.jpg"
     },
     {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_brand.xml.flat",
@@ -266,5 +322,9 @@
     {
         "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\anim_check_animation.xml.flat",
         "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\anim\\check_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yamaha.png.flat",
+        "source": "C:\\Users\\cchvi\\AndroidStudioProjects\\MotorShop1\\app\\src\\main\\res\\drawable\\yamaha.png"
     }
 ]

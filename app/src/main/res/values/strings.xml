@@ -142,6 +142,12 @@
         <item>SYM</item>
         <item>Yamaha</item>
     </array>
+
+    <array name="HangPT">
+        <item>Ohlins</item>
+        <item>Akrapovic</item>
+    </array>
+
     <array name="HinhXe">
         <item>Vision trắng</item>
         <item>Vision đỏ</item>

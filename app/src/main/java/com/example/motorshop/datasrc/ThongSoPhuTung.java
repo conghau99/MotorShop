@@ -1,22 +1,32 @@
 package com.example.motorshop.datasrc;
 
 public class ThongSoPhuTung {
-    private String tenXe;
+    private String maPT;
+    private String maXe;
     private int donGia;
 
     public ThongSoPhuTung() { }
 
-    public ThongSoPhuTung(String tenXe, int donGia) {
-        this.tenXe = tenXe;
+    public ThongSoPhuTung(String maPT, String maXe, int donGia) {
+        this.maPT = maPT;
+        this.maXe = maXe;
         this.donGia = donGia;
     }
 
-    public String getTenXe() {
-        return tenXe;
+    public String getMaPT() {
+        return maPT;
     }
 
-    public void setTenXe(String tenXe) {
-        this.tenXe = tenXe;
+    public void setMaPT(String maPT) {
+        this.maPT = maPT;
+    }
+
+    public String getMaXe() {
+        return maXe;
+    }
+
+    public void setMaXe(String maXe) {
+        this.maXe = maXe;
     }
 
     public int getDonGia() {

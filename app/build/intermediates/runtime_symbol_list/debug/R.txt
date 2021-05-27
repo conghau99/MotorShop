@@ -51,6 +51,7 @@ int animator mtrl_fab_show_motion_spec 0x7f020011
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f020012
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f020013
 int array Hang 0x7f030000
+int array HangPT 0x7f030003
 int array HinhPhuTung 0x7f030001
 int array HinhXe 0x7f030002
 int attr actionBarDivider 0x7f040000
@@ -1644,6 +1645,9 @@ int drawable abc_textfield_search_default_mtrl_alpha 0x7f08005a
 int drawable abc_textfield_search_material 0x7f08005b
 int drawable abc_vector_test 0x7f08005c
 int drawable add 0x7f08005d
+int drawable ak_gp_titan_r3 0x7f0800b7
+int drawable ak_sticker1 0x7f0800b8
+int drawable akrapovic 0x7f0800b9
 int drawable animated_check 0x7f08005e
 int drawable avd_hide_password 0x7f08005f
 int drawable avd_show_password 0x7f080060
@@ -1670,6 +1674,10 @@ int drawable design_password_eye 0x7f080074
 int drawable design_snackbar_background 0x7f080075
 int drawable gallery_photo_selected 0x7f0800b2
 int drawable guarantee 0x7f080076
+int drawable hd_vision 0x7f0800ba
+int drawable hd_wavea 0x7f0800bb
+int drawable hd_winx 0x7f0800bc
+int drawable honda 0x7f0800bd
 int drawable ic_add 0x7f080077
 int drawable ic_camera 0x7f0800b3
 int drawable ic_check 0x7f080078
@@ -1718,10 +1726,14 @@ int drawable notification_template_icon_bg 0x7f08009f
 int drawable notification_template_icon_low_bg 0x7f0800a0
 int drawable notification_tile_bg 0x7f0800a1
 int drawable notify_panel_notification_icon_bg 0x7f0800a2
+int drawable oh_phuoc_vario 0x7f0800be
+int drawable oh_sticker1 0x7f0800bf
+int drawable ohlins 0x7f0800c0
 int drawable people 0x7f0800a3
 int drawable product 0x7f0800a4
 int drawable sirius 0x7f0800a5
 int drawable statistic 0x7f0800a6
+int drawable sym 0x7f0800c1
 int drawable test_custom_background 0x7f0800a7
 int drawable tooltip_frame_dark 0x7f0800a8
 int drawable tooltip_frame_light 0x7f0800a9
@@ -1733,6 +1745,10 @@ int drawable xe4 0x7f0800ae
 int drawable xe5 0x7f0800af
 int drawable xe6 0x7f0800b0
 int drawable xich 0x7f0800b1
+int drawable yamaha 0x7f0800c2
+int drawable ym_exciter 0x7f0800c3
+int drawable ym_grande 0x7f0800c4
+int drawable ym_sirius 0x7f0800c5
 int id ALT 0x7f090000
 int id BOTTOM_END 0x7f090001
 int id BOTTOM_START 0x7f090002

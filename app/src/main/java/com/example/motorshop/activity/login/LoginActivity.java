@@ -1,6 +1,8 @@
 package com.example.motorshop.activity.login;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,12 +12,17 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.motorshop.activity.*;
 import com.example.motorshop.activity.R;
 import com.example.motorshop.activity.main.MainActivity;
+import com.example.motorshop.activity.product.QuanLyXeActivity;
 import com.example.motorshop.db.DBManager;
+
+import java.io.ByteArrayOutputStream;
 
 public class LoginActivity extends AppCompatActivity {
 
+    QuanLyXeActivity quanLyXeActivity;
     EditText etUsn, etPwd;
     Button btnLogin;
     TextView tvGuest;
@@ -38,6 +45,10 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void setEvent() {
+
+        DBManager db = new DBManager(LoginActivity.this);
+        db.getWritableDatabase();
+        db.initData();
 
         btnLogin.setOnClickListener(v -> login());
 

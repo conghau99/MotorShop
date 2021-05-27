@@ -1,14 +1,22 @@
 package com.example.motorshop.datasrc;
 
 public class ThongSoXe {
+    private int maTS;
     private String tenTS;
-    private String noiDungTS;
 
     public ThongSoXe() { }
 
-    public ThongSoXe(String tenTS, String noiDungTS) {
+    public ThongSoXe(int maTS, String tenTS) {
+        this.maTS = maTS;
         this.tenTS = tenTS;
-        this.noiDungTS = noiDungTS;
+    }
+
+    public int getMaTS() {
+        return maTS;
+    }
+
+    public void setMaTS(int maTS) {
+        this.maTS = maTS;
     }
 
     public String getTenTS() {
@@ -17,13 +25,5 @@ public class ThongSoXe {
 
     public void setTenTS(String tenTS) {
         this.tenTS = tenTS;
-    }
-
-    public String getNoiDungTS() {
-        return noiDungTS;
-    }
-
-    public void setNoiDungTS(String noiDungTS) {
-        this.noiDungTS = noiDungTS;
     }
 }

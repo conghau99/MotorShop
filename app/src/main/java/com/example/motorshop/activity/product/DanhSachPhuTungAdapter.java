@@ -64,12 +64,10 @@ public class DanhSachPhuTungAdapter extends ArrayAdapter {
             tvMaXe.setText(phuTung.getMaSP());
             tvTenPhuTung.setText(phuTung.getTenSP());
 
-            if (phuTung.getTenNCC().toString().equals("HD"))
-                tvTenHang.setText("Honda");
-            if (phuTung.getTenNCC().toString().equals("YM"))
-                tvTenHang.setText("Yamaha");
-            if (phuTung.getTenNCC().toString().equals("SY"))
-                tvTenHang.setText("SYM");
+            if (phuTung.getTenNCC().toString().equals("OH"))
+                tvTenHang.setText("Ohlins");
+            if (phuTung.getTenNCC().toString().equals("AK"))
+                tvTenHang.setText("Akrapovic");
             tvSoLuong.setText(Integer.toString(phuTung.getSoLuong()));
             tvDonGia.setText(Integer.toString(phuTung.getDonGia()));
             tvHanBaoHanh.setText(phuTung.getHanBH() + " tháng") ;

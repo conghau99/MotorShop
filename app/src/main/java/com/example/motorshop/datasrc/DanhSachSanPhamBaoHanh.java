@@ -1,24 +1,24 @@
 package com.example.motorshop.datasrc;
 
 public class DanhSachSanPhamBaoHanh {                   //Thon tin bao hanh cua 1 Don Dat Hang bat ky
-    private String tenSP;
+    private String maSP;
     private String noiDungBH;
     private int phiBH;
 
     public DanhSachSanPhamBaoHanh() { }
 
-    public DanhSachSanPhamBaoHanh(String tenSP, String noiDungBH, int phiBH) {
-        this.tenSP = tenSP;
+    public DanhSachSanPhamBaoHanh(String maSP, String noiDungBH, int phiBH) {
+        this.maSP = maSP;
         this.noiDungBH = noiDungBH;
         this.phiBH = phiBH;
     }
 
-    public String getTenSP() {
-        return tenSP;
+    public String getMaSP() {
+        return maSP;
     }
 
-    public void setTenSP(String tenSP) {
-        this.tenSP = tenSP;
+    public void setMaSP(String maSP) {
+        this.maSP = maSP;
     }
 
     public String getNoiDungBH() {
