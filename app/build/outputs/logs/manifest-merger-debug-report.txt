@@ -1,22 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-68:12
-MERGED from [com.github.kazy1991:FontDrawable:0.9.4] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2361bfd4d01cb3397ad115d6c5d8300a\jetified-FontDrawable-0.9.4\AndroidManifest.xml:2:1-11:12
-MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-74:12
+MERGED from [com.github.kazy1991:FontDrawable:0.9.4] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\23076000a32cf344302e40b702181afe\jetified-FontDrawable-0.9.4\AndroidManifest.xml:2:1-11:12
+MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:2:1-25:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b4830525609e4b8bb972f1d8a37dc780\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\53429fbc83e528985386a3702907817d\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
-MERGED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\cad492d89379c1e977175854df346c99\jetified-tedpermission-2.2.3\AndroidManifest.xml:2:1-17:12
-MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\79dfe0c5741dd85c3839ac7ffc5a64e4\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:2:1-17:12
+MERGED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b32f066dbad7fa5bebc95f3b1b5976ef\jetified-tedpermission-2.2.3\AndroidManifest.xml:2:1-17:12
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\0228e0e91405695141324e21bf963f31\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:2:1-17:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\aee462275766ea11fd05a9119c668fe0\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\937bf2a3ad07aedffefb8c23841bd4b9\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\f28f53999825eb3813a58447076e7344\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b0f8f7512c9c7fa4a401caf21e5468bf\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\3d3b0751e6f78ff8c1df2664b2714ed8\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\8689124caa1430799f02cb459f46e2da\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\28d474a297d10a49580084c6eb390b2f\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b17967c54653e8fa7edd7d667d910a71\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\905ffd1a5dad36185c5105d953647283\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\6ba548daa8910021590b469dd1d15252\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\63d693d6393609dd312217953d27b75c\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -41,165 +41,171 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\cchvi\.g
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5de14670e80ac28f28052413a4a35127\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b8b9b24b8ca80aa20ad4d351a7bfff57\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\fc0c8a66a760b49fb5235fd8b1759370\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\bb12052b57e96989d98998309ce491d5\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\04aa0e292161adb3c23e1f0eed560f66\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\4a7e3a6a5b12d48699851e0cd7ae034e\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\0c170a5bf61b9b60ba30f013c401aa8b\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\871eada208e4b1d3c3f2e0d7eeb7730e\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\763fff8338f14250d307a24463e7c6bd\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\a4934bcfce5a642fea31bbad1cb3e0e2\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-74:12
 	package
 		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-68:12
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-74:12
 		INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-68:12
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:1-74:12
 		INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:5:5-64
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:5:5-65
 	android:name
 		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:5:22-62
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:6:5-80
 	android:name
 		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:6:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:7:5-80
-MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:11:5-81
-MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:11:5-81
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:7:5-81
+MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:11:5-81
+MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:11:5-81
 	android:name
 		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:9:5-66:19
-MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:13:5-23:19
-MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:13:5-23:19
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:9:5-72:19
+MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:13:5-23:19
+MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:13:5-23:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b4830525609e4b8bb972f1d8a37dc780\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b4830525609e4b8bb972f1d8a37dc780\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\53429fbc83e528985386a3702907817d\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\53429fbc83e528985386a3702907817d\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\cad492d89379c1e977175854df346c99\jetified-tedpermission-2.2.3\AndroidManifest.xml:9:5-15:19
-MERGED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\cad492d89379c1e977175854df346c99\jetified-tedpermission-2.2.3\AndroidManifest.xml:9:5-15:19
-MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\79dfe0c5741dd85c3839ac7ffc5a64e4\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:9:5-15:19
-MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\79dfe0c5741dd85c3839ac7ffc5a64e4\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:9:5-15:19
+MERGED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b32f066dbad7fa5bebc95f3b1b5976ef\jetified-tedpermission-2.2.3\AndroidManifest.xml:9:5-15:19
+MERGED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b32f066dbad7fa5bebc95f3b1b5976ef\jetified-tedpermission-2.2.3\AndroidManifest.xml:9:5-15:19
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\0228e0e91405695141324e21bf963f31\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:9:5-15:19
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\0228e0e91405695141324e21bf963f31\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:9:5-15:19
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b0f8f7512c9c7fa4a401caf21e5468bf\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b0f8f7512c9c7fa4a401caf21e5468bf\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\28d474a297d10a49580084c6eb390b2f\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\28d474a297d10a49580084c6eb390b2f\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b17967c54653e8fa7edd7d667d910a71\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b17967c54653e8fa7edd7d667d910a71\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
 MERGED from [androidx.core:core:1.3.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\50f1ca78fbc1677adba959cd11a28334\core-1.3.1\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\50f1ca78fbc1677adba959cd11a28334\core-1.3.1\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\4b3912fc93bd609a8bcd6b9553a912b6\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\4b3912fc93bd609a8bcd6b9553a912b6\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\bb12052b57e96989d98998309ce491d5\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\bb12052b57e96989d98998309ce491d5\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\04aa0e292161adb3c23e1f0eed560f66\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\04aa0e292161adb3c23e1f0eed560f66\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
 	android:requestLegacyExternalStorage
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:15:9-52
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:13:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\50f1ca78fbc1677adba959cd11a28334\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
 		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
 		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
 		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
 		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:16:9-47
+activity#com.example.motorshop.activity.product.ChiTietXeActivity
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:17:9-19:79
+	android:parentActivityName
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:19:13-67
+	android:name
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:18:13-54
 activity#com.example.motorshop.activity.product.QuanLyPhuTungActivity
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:17:9-19:63
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:20:9-22:63
 	android:parentActivityName
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:19:13-60
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:22:13-60
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:18:13-88
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:21:13-58
 activity#com.example.motorshop.activity.product.SuaPhuTungActivity
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:20:9-94
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:23:9-64
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:20:19-91
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:23:19-61
 activity#com.example.motorshop.activity.product.ThemPhuTungActivity
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:21:9-95
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:24:9-65
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:21:19-92
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:24:19-62
 activity#com.example.motorshop.activity.product.SuaXeActivity
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:22:9-89
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:25:9-59
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:22:19-86
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:25:19-56
 activity#com.example.motorshop.activity.product.ThemXeActivity
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:23:9-90
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:26:9-60
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:23:19-87
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:26:19-57
 activity#com.example.motorshop.activity.product.QuanLyXeActivity
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:24:9-26:63
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:27:9-29:63
 	android:parentActivityName
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:26:13-60
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:29:13-60
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:25:13-83
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:28:13-53
 activity#com.example.motorshop.activity.product.ProductActivity
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:27:9-91
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:30:9-61
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:27:19-88
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:30:19-58
 activity#com.example.motorshop.activity.login.LoginActivity
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:28:9-34:20
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:31:9-37:20
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:28:19-54
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:31:19-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:35:27-74
 activity#com.example.motorshop.activity.login.VerifyActivity
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:35:9-42:20
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:38:9-46:20
 	android:parentActivityName
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:36:13-62
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:40:13-62
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:35:19-55
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:39:13-49
 activity#com.example.motorshop.activity.main.MainActivity
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:43:9-50:20
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:47:9-55:20
 	android:parentActivityName
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:44:13-62
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:49:13-62
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:43:19-52
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:48:13-46
 activity#com.example.motorshop.activity.brand.BrandActivity
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:51:9-58:20
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:56:9-64:20
 	android:parentActivityName
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:52:13-60
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:58:13-60
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:51:19-54
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:57:13-48
 activity#com.example.motorshop.activity.department.DepartmentActivity
-ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:59:9-65:20
+ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:65:9-71:20
 	android:name
-		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:59:19-64
+		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml:65:19-64
 uses-sdk
 INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml
-MERGED from [com.github.kazy1991:FontDrawable:0.9.4] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2361bfd4d01cb3397ad115d6c5d8300a\jetified-FontDrawable-0.9.4\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.kazy1991:FontDrawable:0.9.4] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2361bfd4d01cb3397ad115d6c5d8300a\jetified-FontDrawable-0.9.4\AndroidManifest.xml:7:5-9:41
-MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.kazy1991:FontDrawable:0.9.4] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\23076000a32cf344302e40b702181afe\jetified-FontDrawable-0.9.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.kazy1991:FontDrawable:0.9.4] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\23076000a32cf344302e40b702181afe\jetified-FontDrawable-0.9.4\AndroidManifest.xml:7:5-9:41
+MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b4830525609e4b8bb972f1d8a37dc780\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b4830525609e4b8bb972f1d8a37dc780\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\53429fbc83e528985386a3702907817d\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\53429fbc83e528985386a3702907817d\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
-MERGED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\cad492d89379c1e977175854df346c99\jetified-tedpermission-2.2.3\AndroidManifest.xml:5:5-7:41
-MERGED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\cad492d89379c1e977175854df346c99\jetified-tedpermission-2.2.3\AndroidManifest.xml:5:5-7:41
-MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\79dfe0c5741dd85c3839ac7ffc5a64e4\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:5:5-7:41
-MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\79dfe0c5741dd85c3839ac7ffc5a64e4\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b32f066dbad7fa5bebc95f3b1b5976ef\jetified-tedpermission-2.2.3\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b32f066dbad7fa5bebc95f3b1b5976ef\jetified-tedpermission-2.2.3\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\0228e0e91405695141324e21bf963f31\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\0228e0e91405695141324e21bf963f31\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\aee462275766ea11fd05a9119c668fe0\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\aee462275766ea11fd05a9119c668fe0\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\937bf2a3ad07aedffefb8c23841bd4b9\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
@@ -212,8 +218,8 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\cchvi\.gradle\
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\3d3b0751e6f78ff8c1df2664b2714ed8\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\8689124caa1430799f02cb459f46e2da\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\8689124caa1430799f02cb459f46e2da\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\28d474a297d10a49580084c6eb390b2f\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\28d474a297d10a49580084c6eb390b2f\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b17967c54653e8fa7edd7d667d910a71\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b17967c54653e8fa7edd7d667d910a71\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\905ffd1a5dad36185c5105d953647283\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\905ffd1a5dad36185c5105d953647283\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\6ba548daa8910021590b469dd1d15252\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
@@ -262,8 +268,8 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\cchvi\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b8b9b24b8ca80aa20ad4d351a7bfff57\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\fc0c8a66a760b49fb5235fd8b1759370\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\fc0c8a66a760b49fb5235fd8b1759370\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\bb12052b57e96989d98998309ce491d5\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\bb12052b57e96989d98998309ce491d5\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\04aa0e292161adb3c23e1f0eed560f66\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\04aa0e292161adb3c23e1f0eed560f66\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\4a7e3a6a5b12d48699851e0cd7ae034e\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\4a7e3a6a5b12d48699851e0cd7ae034e\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\0c170a5bf61b9b60ba30f013c401aa8b\documentfile-1.0.0\AndroidManifest.xml:20:5-44
@@ -285,38 +291,38 @@ INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\Andro
 		ADDED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\cchvi\AndroidStudioProjects\MotorShop1\app\src\main\AndroidManifest.xml
 provider#androidx.core.content.FileProvider
-ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:14:9-22:20
+ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:14:9-22:20
 	android:grantUriPermissions
-		ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:18:13-47
+		ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:18:13-47
 	android:authorities
-		ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:16:13-60
+		ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:16:13-60
 	android:exported
-		ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:17:13-37
+		ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:15:13-62
+		ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:15:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:19:13-21:58
+ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:19:13-21:58
 	android:resource
-		ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:21:17-55
+		ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:21:17-55
 	android:name
-		ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\2287989fa0d272cf23b1e56b7e1e4369\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:20:17-67
+		ADDED from [gun0912.ted:tedbottompicker:2.0.1] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\5eadee05b98c6ebeccf6e776a1dcdb18\jetified-tedbottompicker-2.0.1\AndroidManifest.xml:20:17-67
 activity#com.gun0912.tedpermission.TedPermissionActivity
-ADDED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\cad492d89379c1e977175854df346c99\jetified-tedpermission-2.2.3\AndroidManifest.xml:10:9-14:67
+ADDED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b32f066dbad7fa5bebc95f3b1b5976ef\jetified-tedpermission-2.2.3\AndroidManifest.xml:10:9-14:67
 	android:screenOrientation
-		ADDED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\cad492d89379c1e977175854df346c99\jetified-tedpermission-2.2.3\AndroidManifest.xml:13:13-52
+		ADDED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b32f066dbad7fa5bebc95f3b1b5976ef\jetified-tedpermission-2.2.3\AndroidManifest.xml:13:13-52
 	android:configChanges
-		ADDED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\cad492d89379c1e977175854df346c99\jetified-tedpermission-2.2.3\AndroidManifest.xml:12:13-144
+		ADDED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b32f066dbad7fa5bebc95f3b1b5976ef\jetified-tedpermission-2.2.3\AndroidManifest.xml:12:13-144
 	android:theme
-		ADDED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\cad492d89379c1e977175854df346c99\jetified-tedpermission-2.2.3\AndroidManifest.xml:14:13-64
+		ADDED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b32f066dbad7fa5bebc95f3b1b5976ef\jetified-tedpermission-2.2.3\AndroidManifest.xml:14:13-64
 	android:name
-		ADDED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\cad492d89379c1e977175854df346c99\jetified-tedpermission-2.2.3\AndroidManifest.xml:11:13-75
+		ADDED from [gun0912.ted:tedpermission:2.2.3] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\b32f066dbad7fa5bebc95f3b1b5976ef\jetified-tedpermission-2.2.3\AndroidManifest.xml:11:13-75
 activity#com.gun0912.tedonactivityresult.ProxyActivity
-ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\79dfe0c5741dd85c3839ac7ffc5a64e4\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:10:9-14:75
+ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\0228e0e91405695141324e21bf963f31\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:10:9-14:75
 	android:screenOrientation
-		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\79dfe0c5741dd85c3839ac7ffc5a64e4\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:13:13-52
+		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\0228e0e91405695141324e21bf963f31\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:13:13-52
 	android:configChanges
-		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\79dfe0c5741dd85c3839ac7ffc5a64e4\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:12:13-144
+		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\0228e0e91405695141324e21bf963f31\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:12:13-144
 	android:theme
-		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\79dfe0c5741dd85c3839ac7ffc5a64e4\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:14:13-72
+		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\0228e0e91405695141324e21bf963f31\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:14:13-72
 	android:name
-		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\79dfe0c5741dd85c3839ac7ffc5a64e4\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:11:13-73
+		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\cchvi\.gradle\caches\transforms-2\files-2.1\0228e0e91405695141324e21bf963f31\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:11:13-73

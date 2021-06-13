@@ -48,7 +48,7 @@ public class QuanLyXeActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setControl();
         setEvent();
-        initDataXe();
+        //initDataXe();
         setClick();
     }
 
@@ -126,6 +126,8 @@ public class QuanLyXeActivity extends AppCompatActivity {
         database.insertPT(phuTung);
         phuTung = new PhuTung("AK02", "Po Akrapovic GP Titan Yamaha R3", 5, 8000000, 24, imgToByteArray(R.drawable.ak_gp_titan_r3), "AK");
         database.insertPT(phuTung);
+        database.loadXe(data);
+        danhSachXeAdapter.notifyDataSetChanged();
     }
 
     private void searchXe(String keyword){

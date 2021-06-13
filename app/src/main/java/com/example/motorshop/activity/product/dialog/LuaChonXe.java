@@ -9,6 +9,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.motorshop.activity.R;
+import com.example.motorshop.activity.product.ChiTietXeActivity;
 import com.example.motorshop.activity.product.QuanLyXeActivity;
 import com.example.motorshop.activity.product.SuaXeActivity;
 import com.example.motorshop.datasrc.Xe;
@@ -36,6 +37,7 @@ public class LuaChonXe extends Dialog {
         TextView tvTenXe = findViewById(R.id.tvTenXe);
         TextView tvSuaThongTinXe = findViewById(R.id.tvSuaThongTinXe);
         TextView tvXoaXe = findViewById(R.id.tvXoaXe);
+        TextView tvChiTietXe = findViewById(R.id.tvChiTietXe);
 
         //set thông tin
         tvTenXe.setText(x.getTenSP());
@@ -63,6 +65,19 @@ public class LuaChonXe extends Dialog {
                 Toast.makeText(quanLyXeActivity, "Xóa Xe Thành Công", Toast.LENGTH_SHORT).show();
                 dismiss();
                 quanLyXeActivity.startActivity(new Intent(quanLyXeActivity, QuanLyXeActivity.class));
+            }
+        });
+
+        tvChiTietXe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(quanLyXeActivity, ChiTietXeActivity.class);
+                intent.putExtra("maXe",x.getMaSP().trim());
+                intent.putExtra("tenXe",x.getTenSP().trim());
+                intent.putExtra("donGia",x.getDonGia());
+                intent.putExtra("hinhAnh",x.getHinhAnh());
+                quanLyXeActivity.startActivity(intent);
+                dismiss();
             }
         });
     }

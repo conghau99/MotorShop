@@ -1843,11 +1843,14 @@ int id bounce 0x7f09005a
 int id brands 0x7f09005b
 int id btnAddBR 0x7f09005c
 int id btnCancelDP 0x7f09005d
+int id btnCapNhat 0x7f090205
 int id btnChonAnh 0x7f0901f1
 int id btnInsertDP 0x7f09005e
 int id btnInsertPD 0x7f09005f
 int id btnLogin 0x7f090060
+int id btnSua 0x7f090206
 int id btnSubmit 0x7f090061
+int id btnThem 0x7f090207
 int id btnUpdateBR 0x7f090062
 int id btnUpdateDP 0x7f090063
 int id btn_done 0x7f0901f3
@@ -1918,6 +1921,7 @@ int id easeIn 0x7f0900a3
 int id easeInOut 0x7f0900a4
 int id easeOut 0x7f0900a5
 int id edit_query 0x7f0900a6
+int id edtChiTietXe 0x7f090208
 int id edtDonGia 0x7f0900a7
 int id edtHanBaoHanh 0x7f0900a8
 int id edtMaPhuTung 0x7f0900a9
@@ -1925,6 +1929,7 @@ int id edtMaXe 0x7f0900aa
 int id edtSoLuong 0x7f0900ab
 int id edtTenPhuTung 0x7f0900ac
 int id edtTenXe 0x7f0900ad
+int id edtThongSoXe 0x7f090209
 int id elastic 0x7f0900ae
 int id end 0x7f0900af
 int id endToStart 0x7f0900b0
@@ -2007,6 +2012,7 @@ int id listMode 0x7f0900f8
 int id list_item 0x7f0900f9
 int id lvBrand 0x7f0900fa
 int id lvDepartment 0x7f0900fb
+int id lvHienThiChiTietXe 0x7f09020a
 int id lvHienThiPhuTung 0x7f0900fc
 int id lvHienThiXe 0x7f0900fd
 int id masked 0x7f0900fe
@@ -2229,6 +2235,7 @@ int id tvDeleteDP 0x7f0901d0
 int id tvDonGia 0x7f0901d1
 int id tvEditBR 0x7f0901d2
 int id tvEditDP 0x7f0901d3
+int id tvGia 0x7f09020b
 int id tvGuest 0x7f0901d4
 int id tvHanBaoHanh 0x7f0901d5
 int id tvMaXe 0x7f0901d6
@@ -2240,6 +2247,7 @@ int id tvSuaThongTinPhuTung 0x7f0901db
 int id tvSuaThongTinXe 0x7f0901dc
 int id tvTenHang 0x7f0901dd
 int id tvTenPhuTung 0x7f0901de
+int id tvTenSP 0x7f09020c
 int id tvTenXe 0x7f0901df
 int id tvThemPhuTung 0x7f0901e0
 int id tvThemXe 0x7f0901e1
@@ -2321,6 +2329,7 @@ int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_brand 0x7f0c001c
+int layout activity_chi_tiet_xe 0x7f0c0088
 int layout activity_department 0x7f0c001d
 int layout activity_login 0x7f0c001e
 int layout activity_main 0x7f0c001f
@@ -2352,6 +2361,7 @@ int layout dg_nua_chon_phu_tung 0x7f0c0038
 int layout dg_nua_chon_them 0x7f0c0039
 int layout dg_nua_chon_xe 0x7f0c003a
 int layout item_brand 0x7f0c003b
+int layout item_chi_tiet_xe 0x7f0c0089
 int layout item_department 0x7f0c003c
 int layout item_main 0x7f0c003d
 int layout item_phu_tung 0x7f0c003e

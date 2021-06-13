@@ -1844,11 +1844,14 @@ id bounce
 id brands
 id btnAddBR
 id btnCancelDP
+id btnCapNhat
 id btnChonAnh
 id btnInsertDP
 id btnInsertPD
 id btnLogin
+id btnSua
 id btnSubmit
+id btnThem
 id btnUpdateBR
 id btnUpdateDP
 id btn_done
@@ -1919,6 +1922,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id edtChiTietXe
 id edtDonGia
 id edtHanBaoHanh
 id edtMaPhuTung
@@ -1926,6 +1930,7 @@ id edtMaXe
 id edtSoLuong
 id edtTenPhuTung
 id edtTenXe
+id edtThongSoXe
 id elastic
 id end
 id endToStart
@@ -2008,6 +2013,7 @@ id listMode
 id list_item
 id lvBrand
 id lvDepartment
+id lvHienThiChiTietXe
 id lvHienThiPhuTung
 id lvHienThiXe
 id masked
@@ -2230,6 +2236,7 @@ id tvDeleteDP
 id tvDonGia
 id tvEditBR
 id tvEditDP
+id tvGia
 id tvGuest
 id tvHanBaoHanh
 id tvMaXe
@@ -2241,6 +2248,7 @@ id tvSuaThongTinPhuTung
 id tvSuaThongTinXe
 id tvTenHang
 id tvTenPhuTung
+id tvTenSP
 id tvTenXe
 id tvThemPhuTung
 id tvThemXe
@@ -2322,6 +2330,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_brand
+layout activity_chi_tiet_xe
 layout activity_department
 layout activity_login
 layout activity_main
@@ -2353,6 +2362,7 @@ layout dg_nua_chon_phu_tung
 layout dg_nua_chon_them
 layout dg_nua_chon_xe
 layout item_brand
+layout item_chi_tiet_xe
 layout item_department
 layout item_main
 layout item_phu_tung

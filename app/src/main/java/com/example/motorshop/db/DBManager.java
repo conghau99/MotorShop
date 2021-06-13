@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DBManager extends SQLiteOpenHelper {
-    QuanLyXeActivity quanLyXeActivity;
+
 
     private static final String TAG = "DBManager";
 
@@ -499,8 +499,7 @@ public class DBManager extends SQLiteOpenHelper {
     }
 
     //THONG SO XE
-    public void insertTSX() { }
-    public void insertMotorSpec(String motorSpecName) {      //Specification
+    public void insertTSX(String motorSpecName) {      //Specification
         SQLiteDatabase db = getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put("TENTS", motorSpecName);
@@ -508,26 +507,89 @@ public class DBManager extends SQLiteOpenHelper {
         db.close();
         Log.d(TAG,"Insert MOTOR SPECIFICATION: ");
     }
-    public void updateTSX() { }
-    public void loadTSX() { }
-    public void deleteTSX() { }
+
+    public void updateTSX(ThongSoXe thongSoXe) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String sql = "Update  THONGSOXE  set ";
+        sql += "TENTS  = '" + thongSoXe.getTenTS() + "' ";
+        sql += "  WHERE MATS  = '" + thongSoXe.getMaTS() + "'";
+
+        db.execSQL(sql);
+        db.close();
+        Log.d("DBManager", "Update THONG SO XE");
+    }
+
+    public void loadTSX(ArrayList<ThongSoXe> data) {
+        data.clear();
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "select * from THONGSOXE";
+        Cursor cursor = db.rawQuery(query, null);
+        if (cursor.moveToFirst()) {
+            do {
+                ThongSoXe thongSoXe = new ThongSoXe();
+                thongSoXe.setTenTS(cursor.getString(1));
+                data.add(thongSoXe);
+            } while (cursor.moveToNext());
+        }
+        Log.d("DBManager", "Load THONG SO XE");
+    }
+
+    public void deleteTSX(ThongSoXe thongSoXe) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "DELETE FROM THONGSOXE WHERE MATS='" + thongSoXe.getMaTS() + "'";
+        db.execSQL(query);
+        db.close();
+        Log.d("DBManager", "Delete THONG SO XE");
+    }
 
 
     //CHI TIET THONG SO XE
-    public void insertCTTSX() { }
-    public void insertMotorSpecDetail(ChiTietThongSoXe motorSpecDetail) {
+    public void insertCTTSX(ChiTietThongSoXe chiTietThongSoXe) {
         SQLiteDatabase db = getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put("MAXE", motorSpecDetail.getMaXe());
-        values.put("MATS", motorSpecDetail.getMaTS());
-        values.put("NOIDUNGTS", motorSpecDetail.getNoiDungTS());
+        values.put("MAXE", chiTietThongSoXe.getMaXe());
+        values.put("MATS", chiTietThongSoXe.getMaTS());
+        values.put("NOIDUNGTS", chiTietThongSoXe.getNoiDungTS());
         db.insert("CHITIETTHONGSOXE", null, values);
         db.close();
-        Log.d(TAG,"Insert MOTOR SPECIFICATION DETAIL: ");
+        Log.d(TAG,"Insert CHI TIET THONG SO XE: ");
     }
-    public void updateCTTSX() { }
-    public void loadCTTSX() { }
-    public void deleteCTTSX() { }
+
+    public void updateCTTSX(ChiTietThongSoXe chiTietThongSoXe) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String sql = "Update  CHITIETTHONGSOXE  set ";
+        sql += "NOIDUNGTS  = '" + chiTietThongSoXe.getNoiDungTS() + "' ";
+        sql += "  WHERE MATS  = '" + chiTietThongSoXe.getMaTS() + "'";
+
+        db.execSQL(sql);
+        db.close();
+        Log.d("DBManager", "Update CHI TIET THONG SO XE");
+    }
+
+    public void loadCTTSX(ArrayList<ChiTietThongSoXe> data) {
+        data.clear();
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "select * from CHITIETTHONGSOXE";
+        Cursor cursor = db.rawQuery(query, null);
+        if (cursor.moveToFirst()) {
+            do {
+                ChiTietThongSoXe chiTietThongSoXe = new ChiTietThongSoXe();
+                chiTietThongSoXe.setMaXe(cursor.getString(0));
+                chiTietThongSoXe.setMaTS(cursor.getInt(1));
+                chiTietThongSoXe.setNoiDungTS(cursor.getString(2));
+                data.add(chiTietThongSoXe);
+            } while (cursor.moveToNext());
+        }
+        Log.d("DBManager", "Load CHI TIET THONG SO XE");
+    }
+
+    public void deleteCTTSX(ChiTietThongSoXe chiTietThongSoXe) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "DELETE FROM CHITIETTHONGSOXE WHERE MATS='" + chiTietThongSoXe.getMaTS() + "'";
+        db.execSQL(query);
+        db.close();
+        Log.d("DBManager", "Delete CHI TIET THONG SO XE");
+    }
 
 
     //THONG SO PHU TUNG
@@ -626,20 +688,6 @@ public class DBManager extends SQLiteOpenHelper {
         Log.d(TAG,"Insert ACCESSORY GUARANTEE DETAIL: ");
     }
 
-    private byte[] bigIntToByteArray( final int i ) {
-        BigInteger bigInt = BigInteger.valueOf(i);
-        return bigInt.toByteArray();
-    }
-
-    /*public byte[] imgToByteArray( final int i ) {
-        // get image from drawable
-        Bitmap image = BitmapFactory.decodeResource(quanLyXeActivity.getResources(), i);
-        // convert bitmap to byte
-        ByteArrayOutputStream byteArray = new ByteArrayOutputStream();
-        image.compress(Bitmap.CompressFormat.PNG, 100, byteArray);
-        byte[] hinhAnh = byteArray.toByteArray();
-        return hinhAnh;
-    }*/
 
     public void initData(){
 
@@ -709,58 +757,58 @@ public class DBManager extends SQLiteOpenHelper {
         insertPT(phuTung);*/
 
         ThongSoXe motorSpec = new ThongSoXe();
-        insertMotorSpec("Khối lượng");          //1
-        insertMotorSpec("Dài x Rộng x Cao");
-        insertMotorSpec("Độ cao yên");          //3
-        insertMotorSpec("Khoảng sáng gầm xe");
-        insertMotorSpec("Dung tích bình xăng"); //5
-        insertMotorSpec("Loại động cơ");
-        insertMotorSpec("Công suất tối đa");    //7
-        insertMotorSpec("Dung tích nhớt máy");
-        insertMotorSpec("Hộp số");              //9
-        insertMotorSpec("Dung tích xy-lanh");
+        insertTSX("Khối lượng");          //1
+        insertTSX("Dài x Rộng x Cao");
+        insertTSX("Độ cao yên");          //3
+        insertTSX("Khoảng sáng gầm xe");
+        insertTSX("Dung tích bình xăng"); //5
+        insertTSX("Loại động cơ");
+        insertTSX("Công suất tối đa");    //7
+        insertTSX("Dung tích nhớt máy");
+        insertTSX("Hộp số");              //9
+        insertTSX("Dung tích xy-lanh");
 
         ChiTietThongSoXe motorSpecDetail = new ChiTietThongSoXe("HD01", 1, "97kg");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
         motorSpecDetail = new ChiTietThongSoXe("HD01", 2, "1.914mm x 688mm x 1.075mm");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
         motorSpecDetail = new ChiTietThongSoXe("HD01", 5, "3,7 lít");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
 
         motorSpecDetail = new ChiTietThongSoXe("HD02", 1, "Phiên bản phanh thường: 123kg Phiên bản phanh ABS: 124kg");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
         motorSpecDetail = new ChiTietThongSoXe("HD02", 2, "2.019 x 727 x 1.088 mm");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
         motorSpecDetail = new ChiTietThongSoXe("HD02", 5, "4,5 lít");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
 
         motorSpecDetail = new ChiTietThongSoXe("HD03", 1, "Phiên bản Tiêu chuẩn: 96kg Phiên bản Đặc biệt và Cao cấp: 97kg");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
         motorSpecDetail = new ChiTietThongSoXe("HD03", 2, "1.871mm x 686mm x 1.101mm");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
         motorSpecDetail = new ChiTietThongSoXe("HD03", 5, "4,9 lít");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
 
         motorSpecDetail = new ChiTietThongSoXe("YM01", 1, "96kg");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
         motorSpecDetail = new ChiTietThongSoXe("YM01", 2, "1.890mm x 665mm x 1.035mm");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
         motorSpecDetail = new ChiTietThongSoXe("YM01", 5, "4,2 lít");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
 
         motorSpecDetail = new ChiTietThongSoXe("YM02", 1, "121 kg");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
         motorSpecDetail = new ChiTietThongSoXe("YM02", 2, "1,975 mm × 665 mm × 1,085 mm");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
         motorSpecDetail = new ChiTietThongSoXe("YM02", 5, "5.4 lít");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
 
         motorSpecDetail = new ChiTietThongSoXe("YM03", 1, "101 kg");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
         motorSpecDetail = new ChiTietThongSoXe("YM03", 2, "1.820mm x 685mm x 1.150mm");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
         motorSpecDetail = new ChiTietThongSoXe("YM03", 5, "4,4 lít");
-        insertMotorSpecDetail(motorSpecDetail);
+        insertCTTSX(motorSpecDetail);
 
         ThongSoPhuTung accessorySpec = new ThongSoPhuTung("OH01", "HD01", 350000);
         insertAccessorySpec(accessorySpec);

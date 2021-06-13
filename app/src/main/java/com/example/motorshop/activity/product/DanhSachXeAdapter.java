@@ -76,8 +76,21 @@ public class DanhSachXeAdapter extends ArrayAdapter {
             tvDonGia.setText(Integer.toString(xe.getDonGia()));
             tvHanBaoHanh.setText(xe.getHanBH() + " tháng");
 
-            //chuyển byte [] -> bitmap
+
             byte[] hinhAnh = xe.getHinhAnh();
+            /*String originalStr = "";
+
+            //chuyen Byte sang String
+            for(int i = 0; i < hinhAnh.length; i++)
+                originalStr += (char)hinhAnh[i];
+
+            //chuyen String sang Byte
+            byte[] b = new byte[originalStr.length()];
+            for(int i = 0; i < originalStr.length(); i++) {
+                b[i] = (byte)originalStr.charAt(i);
+            }*/
+
+            //chuyển byte [] -> bitmap
             Bitmap bitmap = BitmapFactory.decodeByteArray(hinhAnh, 0, hinhAnh.length);
             ivXe.setImageBitmap(bitmap);
         }

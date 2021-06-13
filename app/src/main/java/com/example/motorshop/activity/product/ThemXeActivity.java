@@ -86,6 +86,8 @@ public class ThemXeActivity extends AppCompatActivity {
 
     private void openImagePicker() {
         TedBottomPicker.with(ThemXeActivity.this)
+                .showGalleryTile(false)
+                .showCameraTile(false)
                 .show(new TedBottomSheetDialogFragment.OnImageSelectedListener() {
                     @Override
                     public void onImageSelected(Uri uri) {
@@ -141,6 +143,7 @@ public class ThemXeActivity extends AppCompatActivity {
         //chuyển data imageview -> byte[]
         BitmapDrawable bitmapDrawable = (BitmapDrawable) ivPhoTo.getDrawable();
         Bitmap bitmap = bitmapDrawable.getBitmap();
+        bitmap = Bitmap.createScaledBitmap(bitmap, 200, 200, true);
         ByteArrayOutputStream byteArray = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.PNG, 100, byteArray);
         byte[] hinhAnh = byteArray.toByteArray();

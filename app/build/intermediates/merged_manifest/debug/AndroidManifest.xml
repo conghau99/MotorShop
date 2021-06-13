@@ -25,6 +25,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.MotorShop" >
         <activity
+            android:name="com.example.motorshop.activity.product.ChiTietXeActivity"
+            android:parentActivityName="com.example.motorshop.activity.product.QuanLyXeActivity" />
+        <activity
             android:name="com.example.motorshop.activity.product.QuanLyPhuTungActivity"
             android:parentActivityName="com.example.motorshop.activity.main.MainActivity" />
         <activity android:name="com.example.motorshop.activity.product.SuaPhuTungActivity" />

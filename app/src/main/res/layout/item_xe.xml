@@ -12,7 +12,7 @@
             android:id="@+id/tvTenXe"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginRight="100dp"
+            android:layout_marginRight="110dp"
             android:background="@color/black"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
@@ -21,7 +21,7 @@
 
         <TextView
             android:id="@+id/tvTenHang"
-            android:layout_width="100dp"
+            android:layout_width="110dp"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
             android:background="@color/yellow"

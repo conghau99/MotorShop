@@ -15,10 +15,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.motorshop.activity.*;
 import com.example.motorshop.activity.R;
 import com.example.motorshop.activity.main.MainActivity;
+import com.example.motorshop.activity.product.DanhSachXeAdapter;
 import com.example.motorshop.activity.product.QuanLyXeActivity;
+import com.example.motorshop.datasrc.PhuTung;
+import com.example.motorshop.datasrc.Xe;
 import com.example.motorshop.db.DBManager;
 
 import java.io.ByteArrayOutputStream;
+import java.util.ArrayList;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -26,6 +30,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText etUsn, etPwd;
     Button btnLogin;
     TextView tvGuest;
+    ArrayList<Xe> data = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,11 +54,48 @@ public class LoginActivity extends AppCompatActivity {
         DBManager db = new DBManager(LoginActivity.this);
         db.getWritableDatabase();
         db.initData();
-
+        initDataXe();
         btnLogin.setOnClickListener(v -> login());
 
         tvGuest.setOnClickListener(v -> gotoProducts());
 
+    }
+
+    public void initDataXe(){
+        DBManager database = new DBManager(LoginActivity.this);
+        database.getWritableDatabase();
+        Xe xe = new Xe("HD01", "Wave Alpha", 8, 18099000, 24, imgToByteArray(R.drawable.hd_wavea), "HD");
+        database.insertXe(xe);
+        xe = new Xe("HD02", "Winner X", 9, 45999000, 48, imgToByteArray(R.drawable.hd_winx), "HD");
+        database.insertXe(xe);
+        xe = new Xe("HD03", "Vision", 10, 29999000, 36, imgToByteArray(R.drawable.hd_vision), "HD");
+        database.insertXe(xe);
+        xe = new Xe("YM01", "Sirius", 8, 21099000, 36, imgToByteArray(R.drawable.ym_sirius), "YM");
+        database.insertXe(xe);
+        xe = new Xe("YM02", "Exciter", 9, 50499000, 48, imgToByteArray(R.drawable.ym_exciter), "YM");
+        database.insertXe(xe);
+        xe = new Xe("YM03", "Grande", 10, 49999000, 48, imgToByteArray(R.drawable.ym_grande), "YM");
+        database.insertXe(xe);
+        PhuTung phuTung = new PhuTung("OH01", "Nhan dan trang tri Ohlins 1", 5, 403000, 3, imgToByteArray(R.drawable.oh_sticker1) , "OH");
+        database.insertPT(phuTung);
+        phuTung = new PhuTung("OH02", "Phuoc Ohlins Vario", 5, 8500000, 24, imgToByteArray(R.drawable.oh_phuoc_vario), "OH");
+        database.insertPT(phuTung);
+        phuTung = new PhuTung("AK01", "Nhan dan Akrapovic chong nhiet nhom", 5, 212000, 12, imgToByteArray(R.drawable.ak_sticker1), "AK");
+        database.insertPT(phuTung);
+        phuTung = new PhuTung("AK02", "Po Akrapovic GP Titan Yamaha R3", 5, 8000000, 24, imgToByteArray(R.drawable.ak_gp_titan_r3), "AK");
+        database.insertPT(phuTung);
+        database.loadXe(data);
+    }
+
+    public byte[] imgToByteArray( final int i ) {
+        // get image from drawable
+        Bitmap image = BitmapFactory.decodeResource(getResources(), i);
+        Bitmap bmpimg = Bitmap.createScaledBitmap(image, 200, 200, true);
+        // convert bitmap to byte
+        ByteArrayOutputStream byteArray = new ByteArrayOutputStream();
+        bmpimg.compress(Bitmap.CompressFormat.PNG, 100, byteArray);
+        byte[] hinhAnh = byteArray.toByteArray();
+        return hinhAnh;
     }
 
     public void setFullScreen() {

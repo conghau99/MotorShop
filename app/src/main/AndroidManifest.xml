@@ -2,29 +2,32 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.motorshop.activity">
 
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:requestLegacyExternalStorage="true"
         android:theme="@style/Theme.MotorShop">
         <activity
-            android:name="com.example.motorshop.activity.product.QuanLyPhuTungActivity"
-            android:parentActivityName=".main.MainActivity" />
-        <activity android:name="com.example.motorshop.activity.product.SuaPhuTungActivity" />
-        <activity android:name="com.example.motorshop.activity.product.ThemPhuTungActivity" />
-        <activity android:name="com.example.motorshop.activity.product.SuaXeActivity" />
-        <activity android:name="com.example.motorshop.activity.product.ThemXeActivity" />
+            android:name=".product.ChiTietXeActivity"
+            android:parentActivityName=".product.QuanLyXeActivity"></activity>
         <activity
-            android:name="com.example.motorshop.activity.product.QuanLyXeActivity"
+            android:name=".product.QuanLyPhuTungActivity"
             android:parentActivityName=".main.MainActivity" />
-        <activity android:name="com.example.motorshop.activity.product.ProductActivity" />
+        <activity android:name=".product.SuaPhuTungActivity" />
+        <activity android:name=".product.ThemPhuTungActivity" />
+        <activity android:name=".product.SuaXeActivity" />
+        <activity android:name=".product.ThemXeActivity" />
+        <activity
+            android:name=".product.QuanLyXeActivity"
+            android:parentActivityName=".main.MainActivity" />
+        <activity android:name=".product.ProductActivity" />
         <activity android:name=".login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +35,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login.VerifyActivity"
+        <activity
+            android:name=".login.VerifyActivity"
             android:parentActivityName=".login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,7 +44,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".main.MainActivity"
+        <activity
+            android:name=".main.MainActivity"
             android:parentActivityName=".login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,7 +53,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".brand.BrandActivity"
+        <activity
+            android:name=".brand.BrandActivity"
             android:parentActivityName=".main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
